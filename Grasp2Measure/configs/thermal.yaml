@@ -1,0 +1,33 @@
+features:
+  sensor_coordinates_csv: configs/gripper_sensor_coordinates.csv
+
+thermal:
+  data_root: ../Workspace/C_model_training/thermal/data/merged
+  split_root: splits/thermal
+  file_pattern: "*.csv"
+  train_split: train.csv
+  val_split: val.csv
+  test_split: test.csv
+  tactile_classifier_checkpoint: runs/tactile_idw4_16dim/best.pt
+  level_order: ["Low", "Mid", "High"]
+  thermocouple_order: ["AD8", "AD3", "AD7", "AD4", "AD1", "AD5", "AD2", "AD6"]
+  steady_tail_frames: 8
+  neighborhood_radius_mm: 8.0
+  contact_sigma_multiplier: 7.0
+  sigma_floor: 1.0
+  contact_use_abs: true
+
+b0:
+  sigmoid_k: 0.07715661769546177
+  sigmoid_l: 0.8302287969277738
+  sigmoid_x0: 55.02710738733247
+  sigmoid_y0: 0.08510440076069377
+  level_thresholds_mm: [37.6667, 49.3333]
+
+train:
+  batch_size: 16
+  epochs: 200
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  output_dir: runs/thermal_ablation
+  device: auto

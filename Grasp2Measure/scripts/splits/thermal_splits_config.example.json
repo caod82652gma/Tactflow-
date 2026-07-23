@@ -1,0 +1,24 @@
+{
+  "process": {
+    "batches": [
+      {
+        "name": "batch_1_100ml",
+        "raw_bin_dir": "batch_1_100ml",
+        "zero_file": "batch_1_100ml.bin"
+      },
+      {
+        "name": "batch_2_15ml",
+        "raw_bin_dir": "batch_2_15ml",
+        "zero_file": "batch_2_15ml.bin"
+      }
+    ],
+    "output_root": "data/merged"
+  },
+  "split": {
+    "data_root": "data/merged",
+    "pattern": "*.csv",
+    "test_ratio": 0.32,
+    "seed": 42,
+    "val_same_as_test": true
+  }
+}

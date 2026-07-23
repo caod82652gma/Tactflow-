@@ -1,0 +1,9 @@
+﻿measurement,delta_channel,mean_delta_t_ns,std_delta_t_ns
+sin_4p63k,AD2_vs_AD1,-9.172457,1.175825
+sin_4p63k,AD3_vs_AD1,-145.765903,15.727645
+sin_4p63k,AD4_vs_AD1,-59.227589,6.699031
+sin_4p63k,AD5_vs_AD1,4.401760,1.179064
+sin_4p63k,AD6_vs_AD1,-13.482153,1.640146
+sin_4p63k,AD7_vs_AD1,-13.165433,1.493457
+sin_4p63k,AD8_vs_AD1,-10.337873,1.684528
+sin_4p63k,board_pair_average,-35.249950,4.228528

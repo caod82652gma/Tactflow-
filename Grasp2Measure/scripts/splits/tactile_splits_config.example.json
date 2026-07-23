@@ -1,0 +1,32 @@
+{
+  "train_required": [
+    "15ml/VET6_8chips_raw_stream_20260525_231828.csv",
+    "15ml/VET6_8chips_raw_stream_20260527_220359.csv",
+    "15ml/VET6_8chips_raw_stream_20260528_210555.csv"
+  ],
+  "train_unrequired": [],
+  "test_required": [
+    "15ml/VET6_8chips_raw_stream_20260525_231826.csv",
+    "15ml/VET6_8chips_raw_stream_20260527_220358.csv",
+    "15ml/VET6_8chips_raw_stream_20260528_210553.csv"
+  ],
+  "test_unrequired": [],
+  "batch_ratios": {
+    "batsh1": {
+      "train": 1.0,
+      "test": 0.0
+    },
+    "batsh2": {
+      "train": 0.7,
+      "test": 0.3
+    },
+    "batsh3": {
+      "train": 0.5,
+      "test": 0.5
+    },
+    "*": {
+      "train": 0.7,
+      "test": 0.3
+    }
+  }
+}

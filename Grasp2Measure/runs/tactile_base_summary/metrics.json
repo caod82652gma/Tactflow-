@@ -1,0 +1,13 @@
+{
+  "best_val_loss": 0.05856325860262747,
+  "test": {
+    "loss": 0.05856325860262747,
+    "acc": 0.974477958236659
+  },
+  "tactile_root": "C:\\Users\\FangYuxuan\\Saved Games\\Upper_VET6USB\\Workspace\\C_model_training\\tactile",
+  "splits": {
+    "train": "train",
+    "val": "val",
+    "test": "test"
+  }
+}

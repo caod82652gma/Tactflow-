@@ -1,0 +1,19 @@
+{"time":"2026-05-26T19:44:05.0859072+08:00","level":"INFO","msg":"wandb-core"}
+{"time":"2026-05-26T19:44:05.0924505+08:00","level":"INFO","msg":"stream: starting","core version":"0.27.0"}
+{"time":"2026-05-26T19:44:06.250012+08:00","level":"INFO","msg":"stream: created new stream","id":"yj0femwt"}
+{"time":"2026-05-26T19:44:06.2506967+08:00","level":"INFO","msg":"stream: started"}
+{"time":"2026-05-26T19:44:06.2527068+08:00","level":"INFO","msg":"handler: started"}
+{"time":"2026-05-26T19:44:06.2537095+08:00","level":"INFO","msg":"writer: started","stream_id":"yj0femwt"}
+{"time":"2026-05-26T19:44:06.2537095+08:00","level":"INFO","msg":"sender: started"}
+{"time":"2026-05-26T19:44:07.5169637+08:00","level":"INFO","msg":"filestream: sending request","total_files":1}
+{"time":"2026-05-26T19:44:08.7172232+08:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-05-26T19:44:22.5257207+08:00","level":"INFO","msg":"filestream: sending request","total_files":3,"history_offset":0,"history_lines":121,"console_offset":0,"console_lines":120,"uploaded_len":5}
+{"time":"2026-05-26T19:44:23.6127842+08:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-05-26T19:44:24.6614236+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-05-26T19:44:24.6614236+08:00","level":"INFO","msg":"filestream: sending request","total_files":0,"complete":true,"exit_code":0}
+{"time":"2026-05-26T19:44:25.1446791+08:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-05-26T19:44:25.147658+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-05-26T19:44:25.1647952+08:00","level":"INFO","msg":"stream: finishing up"}
+{"time":"2026-05-26T19:44:25.1647952+08:00","level":"INFO","msg":"handler: closed"}
+{"time":"2026-05-26T19:44:25.1653263+08:00","level":"INFO","msg":"sender: closed"}
+{"time":"2026-05-26T19:44:25.1653263+08:00","level":"INFO","msg":"stream: all finished"}

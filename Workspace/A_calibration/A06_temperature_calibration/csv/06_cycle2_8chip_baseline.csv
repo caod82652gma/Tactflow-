@@ -1,0 +1,2 @@
+Device,Ambient_Temperature_degC,Estimated_Baseline_Raw16,Baseline_Method,Temperature_Min_degC,Temperature_Max_degC,Num_Files
+cycle2_8chip,25,-136.190937,median inferred from all temperature points,5,88,84

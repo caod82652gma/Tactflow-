@@ -1,0 +1,24 @@
+2026-05-26 19:44:02,294 INFO    MainThread:31036 [wandb_setup.py:_flush():81] Current SDK version is 0.27.0
+2026-05-26 19:44:02,294 INFO    MainThread:31036 [wandb_setup.py:_flush():81] Configure stats pid to 31036
+2026-05-26 19:44:02,294 INFO    MainThread:31036 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-05-26 19:44:02,295 INFO    MainThread:31036 [wandb_init.py:setup_run_log_directory():723] Logging user logs to C:\Users\FangYuxuan\Saved Games\Upper_VET6USB\Grasp2Measure\wandb\run-20260526_194402-yj0femwt\logs\debug.log
+2026-05-26 19:44:02,295 INFO    MainThread:31036 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to C:\Users\FangYuxuan\Saved Games\Upper_VET6USB\Grasp2Measure\wandb\run-20260526_194402-yj0femwt\logs\debug-internal.log
+2026-05-26 19:44:02,296 INFO    MainThread:31036 [wandb_init.py:init():851] calling init triggers
+2026-05-26 19:44:02,296 INFO    MainThread:31036 [wandb_init.py:init():856] wandb.init called with sweep_config: {}
+config: {'data': {'tactile_root': '../Workspace/C_model_training/tactile', 'interpolation': 'idw4', 'split_by_trial': True, 'val_ratio': 0.15, 'test_ratio': 0.15, 'random_seed': 42, 'max_frames_per_trial': None}, 'labels': {'class_order': ['15ml', '50ml', '100ml', '200ml'], 'radius_mm': {'15ml': 7.5, '50ml': 20.0, '100ml': 25.0, '200ml': 30.0}}, 'features': {'sensor_coordinates_csv': 'configs/gripper_sensor_coordinates.csv', 'contact_threshold_mv': 50.0, 'tactile_summary': 'mean_std', 'thermal_columns': ['AD1_Temperature_mV', 'AD2_Temperature_mV', 'AD3_Temperature_mV', 'AD4_Temperature_mV', 'AD5_Temperature_mV', 'AD6_Temperature_mV', 'AD7_Temperature_mV', 'AD8_Temperature_mV'], 'thermal_contact_columns': [1, 2, 3, 4, 5, 6, 3, 4]}, 'model': {'hidden_dim': 16, 'dropout': 0.1}, 'train': {'batch_size': 256, 'epochs': 120, 'learning_rate': 0.001, 'weight_decay': 0.0001, 'output_dir': 'runs/tactile_idw4', 'device': 'auto'}, 'wandb': {'entity': 'davyfangyuxuan-nanjing-university-of-aeronautics-and-ast', 'project': 'VET6_tactile_model', 'mode': 'online', 'group': 'tactile_container', 'job_type': 'train', 'tags': ['tactile', 'container-classification']}, '_wandb': {}}
+2026-05-26 19:44:02,296 INFO    MainThread:31036 [wandb_init.py:init():899] starting backend
+2026-05-26 19:44:05,006 INFO    MainThread:31036 [wandb_init.py:init():914] sending inform_init request
+2026-05-26 19:44:06,253 INFO    MainThread:31036 [wandb_init.py:init():919] backend started and connected
+2026-05-26 19:44:06,255 INFO    MainThread:31036 [wandb_init.py:init():989] updated telemetry
+2026-05-26 19:44:06,546 INFO    MainThread:31036 [wandb_init.py:init():1012] communicating run to backend with 90.0 second timeout
+2026-05-26 19:44:07,274 INFO    MainThread:31036 [wandb_init.py:init():1057] starting run threads in backend
+2026-05-26 19:44:07,494 INFO    MainThread:31036 [wandb_run.py:_console_start():2509] atexit reg
+2026-05-26 19:44:07,494 INFO    MainThread:31036 [wandb_run.py:_redirect():2359] redirect: wrap_raw
+2026-05-26 19:44:07,494 INFO    MainThread:31036 [wandb_run.py:_redirect():2428] Wrapping output streams.
+2026-05-26 19:44:07,494 INFO    MainThread:31036 [wandb_run.py:_redirect():2451] Redirects installed.
+2026-05-26 19:44:07,514 INFO    MainThread:31036 [wandb_init.py:init():1095] run started, returning control to user process
+2026-05-26 19:44:14,293 INFO    MainThread:31036 [wandb_run.py:_finish():2271] finishing run davyfangyuxuan-nanjing-university-of-aeronautics-and-ast/VET6_tactile_model/yj0femwt
+2026-05-26 19:44:14,294 INFO    MainThread:31036 [wandb_run.py:_atexit_cleanup():2476] got exitcode: 0
+2026-05-26 19:44:14,295 INFO    MainThread:31036 [wandb_run.py:_restore():2458] restore
+2026-05-26 19:44:14,295 INFO    MainThread:31036 [wandb_run.py:_restore():2464] restore done
+2026-05-26 19:44:25,161 INFO    MainThread:31036 [wandb_run.py:_footer_sync_info():3877] logging synced files

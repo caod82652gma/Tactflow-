@@ -1,0 +1,2 @@
+ADC_zero_mean_raw16,ADC_zero_cross_cycle_1sigma_raw16,temperature_max_abs_error_C,temperature_max_abs_error_at_T_std_C,cross_cycle_reproducibility_1sigma_C_median,cross_cycle_reproducibility_1sigma_C_max,residual_mean_C,residual_rms_C,temperature_points,cycles_per_point
+42.057113,186.898829,0.638418,88,0.109488,1.111934,0.007509,0.126554,84,3
