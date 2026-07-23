@@ -1,9 +1,0 @@
-﻿measurement,delta_channel,mean_delta_t_ns,std_delta_t_ns
-triangle_84p90k,AD2_vs_AD1,-1.352199,8.490378
-triangle_84p90k,AD3_vs_AD1,-41.705510,65.577683
-triangle_84p90k,AD4_vs_AD1,-11.859855,25.264056
-triangle_84p90k,AD5_vs_AD1,2.256546,8.742564
-triangle_84p90k,AD6_vs_AD1,-0.227084,9.781770
-triangle_84p90k,AD7_vs_AD1,-2.087606,8.976282
-triangle_84p90k,AD8_vs_AD1,-0.736544,8.656893
-triangle_84p90k,board_pair_average,-7.958893,19.355661

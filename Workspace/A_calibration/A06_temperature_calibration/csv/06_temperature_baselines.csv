@@ -1,3 +1,0 @@
-Device,Ambient_Temperature_degC,Baseline_File,Baseline_Column,Window_Mode,Window_Start,Window_End,Window_Size,Selection_Score,Baseline_Raw16,Baseline_Visual_mV,Baseline_Thermocouple_mV
-hot_device_2,25,Temp_Hot_4Chips.csv,Raw16,lowest_std,2410,2810,400,1.78706,303.88,46.368408,0.168612
-cold_device_1,24,Temp_Cold_8Chips.csv,TemperatureRaw16,lowest_std,667,1067,400,4.979753,174.2675,26.59111,0.096695

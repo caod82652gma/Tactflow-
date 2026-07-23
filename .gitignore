@@ -1,0 +1,40 @@
+# Raw data
+/Workspace/
+
+# Experiment results
+/Vet6USB_curve_draw/backup/
+/Vet6USB_curve_draw/result_display/
+/Vet6USB_curve_draw/result_display_cn/
+/Grasp2Measure/runs/
+
+# Training and experiment logs
+/Grasp2Measure/wandb/
+/Grasp2Measure/splits/**/cv*/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local environments and editor settings
+.env
+.env.*
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.ipynb_checkpoints/

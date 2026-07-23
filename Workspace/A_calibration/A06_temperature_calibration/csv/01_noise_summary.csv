@@ -1,3 +1,0 @@
-Signal,Samples,Mean_Raw16,Min_Raw16,Max_Raw16,Detrend_Method,Estimated_Baseline_Min_Raw16,Estimated_Baseline_Max_Raw16,Estimated_Baseline_PeakToPeak_LSB,MeanRemoved_Std_LSB,Noise_Mean_LSB,Noise_Std_LSB,Noise_RMS_LSB,Noise_PeakToPeak_LSB,Noise_P99_PeakToPeak_LSB,Noise_6Sigma_LSB,Noise_Std_Visual_mV,Noise_6Sigma_Visual_mV
-TemperatureRaw16,10661,54.960698,14.0,103.0,rolling_median_401_samples,30.0,90.0,60.0,17.05775,0.0,5.61181,5.611547,45.0,28.7,33.670861,0.856294,5.137766
-VGNDRaw16,10661,-1.140606,-5.0,3.0,rolling_median_401_samples,-2.0,0.0,2.0,1.159116,0.0,1.166528,1.166473,9.0,6.0,6.999165,0.177998,1.067988
