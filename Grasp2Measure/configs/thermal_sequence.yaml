@@ -1,0 +1,46 @@
+features:
+  sensor_coordinates_csv: configs/gripper_sensor_coordinates.csv
+
+thermal:
+  data_root: ../Workspace/C_model_training/thermal/data/merged
+  split_root: splits/thermal
+  file_pattern: "*.csv"
+  train_split: train.csv
+  val_split: val.csv
+  test_split: test.csv
+  tactile_classifier_checkpoint: runs/tactile_idw4_16dim/best.pt
+  level_order: ["Low", "Mid", "High"]
+  thermocouple_order: ["AD8", "AD3", "AD7", "AD4", "AD1", "AD5", "AD2", "AD6"]
+  steady_tail_frames: 8
+  neighborhood_radius_mm: 8.0
+  contact_sigma_multiplier: 7.0
+  sigma_floor: 1.0
+  contact_use_abs: true
+
+thermal_sequence:
+  merged_root: ../Workspace/C_model_training/thermal/data/merged
+  merged_pattern: "*.csv"
+  data_root: ../Workspace/C_model_training/thermal/data/sequence
+  split_root: splits/thermal
+  file_pattern: "*.npz"
+  train_split: train.csv
+  val_split: val.csv
+  test_split: test.csv
+  level_order: ["Low", "Mid", "High"]
+  sequence_length: 128
+  raw_window_frames: 128
+  contact_threshold_mv: 50.0
+  contact_top_k: 8
+  outlier_mad_multiplier: 8.0
+  encoder: gru
+  hidden_dim: 32
+  num_layers: 1
+  dropout: 0.0
+
+train:
+  batch_size: 16
+  epochs: 200
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  output_dir: runs/thermal_sequence_ablation_gru
+  device: auto
