@@ -58,6 +58,17 @@ cd "C:\Users\FangYuxuan\Saved Games\Upper_VET6USB\Grasp2Measure"
 
 python -m pip install -r requirements.txt
 
+
+# splits gen
+## config_base 
+python scripts\splits\generate_thermal_splits.py
+python scripts\splits\generate_tactile_splits.py
+
+## five folds
+python scripts\splits\generate_tactile_splits.py --cv-folds 5
+python scripts\splits\generate_thermal_splits.py --cv-folds 5
+
+
 # 纯触觉 Summary 分支
 python train.py --config configs/default.yaml --interpolation mean --input-mode tactile_summary --output-dir runs/tactile_mean_summary --eval
 
@@ -66,7 +77,7 @@ python train.py --config configs/default.yaml --interpolation base --input-mode 
 python train.py --config configs/default.yaml --interpolation idw4 --input-mode tactile_summary --output-dir runs/tactile_idw4_summary --eval
 
 # 纯触觉 16dim 分支
-python train.py --config configs/default.yaml --interpolation idw4 --input-mode pressure_16 --output-dir runs/tactile_idw4_16dim --eval
+python train.py --config configs/default.yaml --interpolation idw4 --cv-folds 5 --input-mode pressure_16 --output-dir runs/tactile_cv5 --eval
 
 # 生成中文图片
 python Grasp2Measure\scripts\generate_cn_confusion_heatmaps.py
@@ -93,7 +104,13 @@ Temp Command-line overrides:
 conda activate vet6usb_pyqt
 cd "C:\Users\FangYuxuan\Saved Games\Upper_VET6USB\Grasp2Measure"
 
-C:\Users\FangYuxuan\anaconda3\envs\vet6usb_pyqt\python.exe thermal_train.py --config configs/thermal.yaml --epochs 300 --batch-size 16 --lr 0.0003 --output-dir runs/thermal_ablation_lr3e4
+C:\Users\FangYuxuan\anaconda3\envs\vet6usb_pyqt\python.exe thermal_train.py --config configs/thermal.yaml --epochs 300 --batch-size 16 --lr 0.0003 --output-dir runs/thermal_cv5 --cv-folds 5
+
+# 温度分支跑5折
+--cv-folds 5
+--output-dir runs/tactile_cv5
+--output-dir runs/thermal_cv5
+
 ```
 
 
